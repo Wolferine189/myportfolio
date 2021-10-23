@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project Myself</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script >
+ 
+
+      function myfunction(){
+        var x=document.getElementById("menu");
+              if (x.style.display == "block"){
+                 x.style.display="none";
+               }
+               else{
+                x.style.display="block";
+               }
+       
+          }
+      
+      </script>
+    <script src="https://kit.fontawesome.com/00e70a6e64.js" crossorigin="anonymous"></script>
+</head>
+<body><div class="Everything">
+    <!------home--->
+    <div class="container"  id="home">
+        <nav class="navbar">
+            <div class="logo"><a href="#home">Port<span>folio.</span></a></div>
+       <div class="items">
+        <i class="fas fa-bars" id="bars" onclick="myfunction()" ></i>
+        <i class="fas fa-times" id="bars2" ></i>
+        <ul id="menu">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Knowledge</a></li>
+            <li><a href="#contact">Contact</a></li>
+          
+        </ul>    
+       </div>
+        </nav>
+        <div class="section1">
+    
+<div class="type-sm"><div class="text">
+    <h1> I'm MAnjil,<br></h1>
+    <h3>I'm a <span>Programmer</span>, and a <span>Learner.</span></h3></div>
+
+</div>  
+
+        <div class="images">
+            <img src="Images/boy-removebg-preview.png" alt="png">
+        </div>
+        </div>
+    </div>
+
+   <!--------section first-------->
+<section class="first" id="about">
+ <div class="termino">
+ <div class="text-mash">
+    <h1 class="Myf">About Me</h1>
+ </div>
+ <div class="type-line">
+ Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi maiores optio deleniti illo esse quas, quaerat id dolorem culpa magni ut rerum aliquam vel at molestias velit. Voluptatem aut ab qui, tempore exercitationem facere nihil Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium optio officiis quibusdam rem quasi earum delectus, voluptas eum deleniti animi dolore dolores at laborum similique libero quas eos voluptatum velit!
+</div>
+
+ </div>
+
+</section>
+<hr>
+
+<!-- ----------Skills-------------->
+<section class="Skills" id="skills">
+    <div class="text-mash">
+        <h1 class="Myf">Knowledge</h1>   </div>
+<div class="type-line">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci veniam aperiam odit, doloremque at, iusto sit obcaecati, accusantium officiis consectetur autem. Esse fuga aliquid neque asperiores nobis dolore eveniet voluptas!
+       
+   
+      </div>
+   <div class="charts">   <html>
+        <head>
+          <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+          <script type="text/javascript">
+            google.charts.load('current', {'packages':['bar']});
+            google.charts.setOnLoadCallback(drawChart);
+      
+            function drawChart() {
+              var data = google.visualization.arrayToDataTable([
+                ['Year', 'Sales', 'Expenses', 'Profit'],
+                ['2014', 1000, 400, 200],
+                ['2015', 1170, 460, 250],
+                ['2016', 660, 1120, 300],
+                ['2017', 1030, 540, 350]
+              ]);
+      
+              var options = {
+                chart: {
+                  title: 'Company Performance',
+                  subtitle: 'Sales, Expenses, and Profit: 2014-2017',
+                },
+                bars: 'horizontal' // Required for Material Bar Charts.
+              };
+      
+              var chart = new google.charts.Bar(document.getElementById('barchart_material'));
+      
+              chart.draw(data, google.charts.Bar.convertOptions(options));
+            }
+          </script>
+        </head>
+        <body>
+          <div id="barchart_material" style="width: 900px; height: 500px;"></div>
+        </body>
+      </html></div>
+</section>
+
+
+<hr>
+                     <!---------Contact------>
+                     <section class="contact" id="contact">
+                       <div class="text-mash">
+                           <h1 class="Myf">Contact Me</h1>
+                       </div>
+                  <div class="input1">
+                   <div class="col-1"><i class="fas fa-user"></i> <input type="text" class="text-name" placeholder="Name"></div>
+                      
+                      
+                   <div class="col-1"><i class="fas fa-envelope"></i> <input type="text" class="text-name" placeholder="Email"></div>
+                   <div class="col-1"><i class='fas fa-phone'></i> <input type="text" class="text-name" placeholder="Phone-number" ></i></div>
+                    <button type="submit" class="btn2">Send</button></div>
+
+                  </div>
+
+
+
+
+                     </section>
+<hr>
+<section class="footer">
+  <p5>&copy; CopyRight-Manjil Aryal -All right reserverd </p5>
+  
+</section>
+
+
+</div>
+
+</body>
+
+
+</html>

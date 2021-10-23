@@ -1,0 +1,305 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+transition: 0.9s;
+
+
+}
+.container{
+   background: #4CE0B3;
+    height: 100vh;
+}
+.navbar{
+    background: rgba(54, 54, 54, 0.8) ;
+    height: 70px;
+    display: flex;
+    position: sticky;
+
+
+}
+#bars{
+    color: #fff;
+    font-size: 25px;
+    display: none;
+}
+.items{
+    display: block;
+
+}
+.logo{
+    width: 60%;
+    margin: 19px 0;
+}
+.logo a{
+    font-size: 34px;
+    color:#ffff;
+    list-style-type: none;
+    text-decoration: none;
+  padding: 20px;
+
+}
+.logo a span{
+    color: cyan;
+}
+.items ul li{
+
+    display: inline-flex;
+    padding:0  20px;
+    margin: 22px 0;
+    
+}
+.items ul li a{
+   font-size: 22px;
+   text-decoration: none;
+   color: #ffff;
+   transition:  0.4s ease;
+   font-family: 'Poppins', sans-serif;
+    
+
+}
+.items ul li a:hover{
+    color: cyan;
+}
+ .Myf {
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    line-height: 75px;
+    color: #555;
+
+}
+
+.section1{
+    top: 500px;
+    display: flex;
+    flex: 1;
+}
+.images{
+   padding-top: 20px;
+}
+.images img{
+    width: 90%;
+    
+}
+
+
+.type-sm{
+    width: 50%;
+}
+.type-sm .text {
+    margin: 50px 200px;
+
+}
+.text h1{
+    font-size: 90px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.text h3{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    
+
+
+
+}
+    .text-mash{
+        position: relative;
+    }
+.text-mash::after{
+    content: '';
+   width: 90px;
+    height: 5px;
+   background-color: #4CE0B3;
+ bottom: 0;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    border-radius: 5px;
+
+}
+.type-line{
+    padding: 24px 5px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    font-family:  'Poppins', sans-serif;
+    font-size: 19px;
+}
+.first{
+    height: 50vh;
+}
+hr{
+    color: silver;
+    width: 90%;
+   margin: 0 60px;
+}
+    .var span{
+        width: 10px;
+        height: 3px;
+        color: blue;
+        content: '';
+        position: absolute;
+    }
+
+.Skills{
+    height: auto;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+#barchart_material{
+    margin: 0 140px;
+}
+.input1{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    margin-top: 20px;
+
+
+}
+.contact{
+    height: 90vh;
+    margin-top: 80px;
+}
+.input1 input{
+     margin: 20px;
+     padding: 12px;
+     font-size: 20px;
+     color: #000;
+     font-family: 'Poppins,'sans-serif';;
+
+
+}
+.input1 input ::placeholder{
+    color: black;
+
+}
+
+
+.input1 button{
+    background-color:#4CE0B3  ;
+    width: 20%;
+    padding: 8px;
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family:fantasy;
+    color: #ffff;
+    
+
+   
+   
+
+}
+.btn2{
+    margin: 0 10px;
+}
+.fas{
+    margin: 10px;
+}
+.footer{
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 25px;
+    text-align: center;
+    color: #fff;
+    font-family: fantasy;
+ 
+    margin:20px 0;
+}
+.charts{
+    width: 70%;
+}
+#bars2{
+    color: white;
+    font-size: 25px;
+    display: none;
+}
+
+ /* -----------media--------- */
+  @media (max-width:942px) {
+    .logo{
+         width:50% ;
+     }
+    
+     }
+     @media (max-width:749px) {
+        .logo{
+            width:40% ;
+        }
+       
+        }
+        @media (max-width:964px) {
+         .images img{
+             display: none;
+
+         }
+         #home{
+             height: 70vh;
+         }
+         .logo a{
+             padding: 0 50px;
+             
+         }
+        .text h1{
+            font-size:65px;
+
+        }
+        .text h3{
+            font-size: 15px;
+        }
+
+            }
+            @media (max-width:1063px) {
+                .charts{
+                     width:50%;
+                 }
+                
+
+                 }
+                 @media (max-width:625px) {
+                     *{
+                         height: auto;
+                     }
+                     #bars{
+                         display: block;
+                         padding-left:  200px;
+                         position: absolute;
+                         top: 12px;
+                     }
+                     #bars:hover{
+                         color: rgb(157, 157, 157);
+                     }
+                     .navbar{
+                         height: auto;
+
+                     }
+                     .navbar ul li{
+                         display: block;
+                         
+                     }
+                     .items{
+                         margin-top: 30px;
+                     }
+                     #home{
+                         height: auto;
+                     }
+                     .charts{
+                         display: none;
+                     }
+                     .navbar ul{
+                        display: none;
+                    }
+                    
+                   
+                 }
+
+
+       
+       
+   
+   

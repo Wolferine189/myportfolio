@@ -7,6 +7,9 @@ transition: 0.9s;
 
 
 }
+html{
+   scroll-behaviour:smooth;}
+
 .container{
    background: #4CE0B3;
     height: 100vh;

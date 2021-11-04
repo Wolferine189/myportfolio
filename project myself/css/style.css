@@ -8,7 +8,8 @@ transition: 0.9s;
 
 }
 html{
-   scroll-behaviour:smooth;}
+    scroll-behavior: smooth;
+}
 
 .container{
    background: #4CE0B3;
